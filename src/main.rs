@@ -8,7 +8,7 @@ fn main() {
 
     // primitive data types
     // boolean
-    let logicalL: bool = true;
+    let logical: bool = true;
     //float
     let float_a: f64=1.0; //memory alotment
     let float_b = 3.2; //defaults to f64
@@ -19,8 +19,15 @@ fn main() {
     //data type can be inferred from context
     let number = 45;
 
-    number = "hello"; //should error saying you cannot change type i.e. "expected integer, found `&str`"
-    println!("{}",number)
+    // number = "hello"; //should error saying you cannot change type i.e. "expected integer, found `&str`"
+    println!("{}",number);
+
+    // operators (pretty standard operators)
+    println!("{}", number == 6);
+    // || or operator
+    //  && 'AND'
+    // ! 'NOt'
+
 
 
 }/*adding block comment */
